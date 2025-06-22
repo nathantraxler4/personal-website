@@ -16,21 +16,21 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Sarah's Personal Website | Designer & Writer",
-  description: "Personal portfolio of Sarah, a designer and writer based in Portland. Creating thoughtful experiences through design and storytelling.",
-  keywords: ["designer", "writer", "portfolio", "blog", "Portland"],
-  authors: [{ name: "Sarah" }],
-  creator: "Sarah",
+  title: "Nathan Traxler's Personal Website | Software Engineer",
+  description: "Personal portfolio of Nathan Traxler, a software engineer based in San Francisco.",
+  keywords: ["software engineer", "portfolio", "blog", "San Francisco"],
+  authors: [{ name: "Nathan Traxler" }],
+  creator: "Nathan Traxler",
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourwebsite.com",
-    title: "Sarah's Personal Website",
-    description: "Designer and writer based in Portland",
-    siteName: "Sarah's Personal Website",
+    // url: "https://yourwebsite.com",
+    title: "Nathan Traxler's Personal Website",
+    description: "Software Engineer and AI Enthusiast based in San Francisco",
+    siteName: "Nathan Traxler's Personal Website",
   },
 };
 
