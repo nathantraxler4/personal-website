@@ -6,22 +6,22 @@ export default function ContactSection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-4xl font-light text-stone-700 mb-8">Let&apos;s Connect</h2>
+            <h2 className="text-4xl font-light text-stone-700 mb-8">Let&rsquo;s Connect</h2>
             <div className="space-y-6 text-lg leading-relaxed text-stone-600 font-light">
               <p>
-                I&apos;m always interested in meaningful conversations about design, writing,
-                or just life in general. Whether you have a project in mind or simply
-                want to say hello, I&apos;d love to hear from you.
+                I&apos;m always interested in meaningful conversations about software engineering, clean code,
+                or the tech industry in general. Whether you have a project in mind or simply
+                want to say hello, I&rsquo;d love to hear from you.
               </p>
               <div className="space-y-3">
                 <p>
                   <span className="text-stone-800">Email:</span>{' '}
-                  <a href="mailto:hello@sarah.com" className="hover:text-stone-800 transition-colors">
-                    hello@sarah.com
+                  <a href="mailto:hello@nathantraxler.com" className="hover:text-stone-800 transition-colors">
+                    hello@nathantraxler.com
                   </a>
                 </p>
                 <p>
-                  <span className="text-stone-800">Based in:</span> Portland, Oregon
+                  <span className="text-stone-800">Based in:</span> San&nbsp;Francisco, California
                 </p>
               </div>
             </div>

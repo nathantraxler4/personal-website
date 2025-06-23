@@ -9,18 +9,18 @@ export default function AboutSection() {
             <h2 className="text-4xl font-light text-stone-700 mb-8">About</h2>
             <div className="space-y-6 text-lg leading-relaxed text-stone-600 font-light">
               <p>
-                I believe in the power of intentional design and authentic storytelling.
-                My work explores the intersection of visual communication and human connection,
-                always with an eye for the subtle details that make experiences memorable.
+                I believe in the power of elegant code and thoughtful architecture.
+                My work sits at the intersection of user-centric design and robust engineering,
+                with an eye for the subtle details that make applications delightful.
               </p>
               <p>
-                When I&apos;m not designing, you&apos;ll find me wandering through Portland&apos;s coffee shops
-                with a sketchbook, hunting for vintage records, or getting lost in the pages of
-                a well-worn novel. I&apos;m drawn to the quiet moments that reveal deeper truths.
+                When I&apos;m not coding, you&apos;ll find me cycling along San Francisco&apos;s Bay Trail
+                sampling new coffee shops, or tinkering with side projects that explore the boundaries
+                of modern web development.
               </p>
               <p>
-                My approach is rooted in mindfulness and curiosity - whether I&apos;m crafting a brand
-                identity or writing about the beauty found in everyday moments.
+                My approach is rooted in collaboration and curiosity — whether I&apos;m scaling a microservice
+                or mentoring new engineers eager to learn.
               </p>
             </div>
           </div>

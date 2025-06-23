@@ -6,11 +6,11 @@ export default function FooterSection() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-stone-500 text-sm font-light">
-            © 2024 Sarah. Made with intention and care.
+            © 2025 Nathan&nbsp;Traxler. Crafted with care in San&nbsp;Francisco.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-stone-500 hover:text-stone-700 text-sm tracking-wider transition-colors">
-              INSTAGRAM
+              GITHUB
             </a>
             <a href="#" className="text-stone-500 hover:text-stone-700 text-sm tracking-wider transition-colors">
               LINKEDIN
