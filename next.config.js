@@ -15,10 +15,6 @@ const nextConfig = {
   generateEtags: false,
   // Enable gzip compression
   compress: true,
-  // Enable the app directory
-  experimental: {
-    appDir: true,
-  },
   // Disable the static directory in favor of the app directory
   useFileSystemPublicRoutes: true,
 };
