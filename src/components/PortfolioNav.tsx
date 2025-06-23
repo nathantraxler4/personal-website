@@ -1,7 +1,5 @@
 "use client";
 
-import React from "react";
-
 type Props = {
   scrollToSection: (id: string) => void;
 };

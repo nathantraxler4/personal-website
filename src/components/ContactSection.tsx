@@ -1,19 +1,17 @@
 "use client";
 
-import React from "react";
-
 export default function ContactSection() {
   return (
     <section id="contact" className="py-20 px-6 bg-stone-50">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-4xl font-light text-stone-700 mb-8">Let's Connect</h2>
+            <h2 className="text-4xl font-light text-stone-700 mb-8">Let&apos;s Connect</h2>
             <div className="space-y-6 text-lg leading-relaxed text-stone-600 font-light">
               <p>
-                I'm always interested in meaningful conversations about design, writing,
+                I&apos;m always interested in meaningful conversations about design, writing,
                 or just life in general. Whether you have a project in mind or simply
-                want to say hello, I'd love to hear from you.
+                want to say hello, I&apos;d love to hear from you.
               </p>
               <div className="space-y-3">
                 <p>

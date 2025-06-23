@@ -1,7 +1,5 @@
 "use client";
 
-import React from "react";
-
 export default function FooterSection() {
   return (
     <footer className="py-12 px-6 border-t border-stone-200" id="footer">
