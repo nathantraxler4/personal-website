@@ -10,7 +10,7 @@ export default function PortfolioNav({ scrollToSection }: Props) {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Profile Circle */}
-          <div className="w-12 h-12 rounded-full bg-stone-300 flex items-center justify-center overflow-hidden">
+          <div className="w-12 h-12 rounded-full bg-stone-300 text-(--color-nav-text) flex items-center justify-center overflow-hidden">
             NT
           </div>
 
@@ -20,7 +20,7 @@ export default function PortfolioNav({ scrollToSection }: Props) {
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-sm tracking-wider text-stone-600 hover:text-stone-900 transition-colors duration-300 font-light"
+                className="text-sm tracking-wider text-(--color-nav-text) hover:text-stone-900 transition-colors duration-300 font-light"
               >
                 {item}
               </button>

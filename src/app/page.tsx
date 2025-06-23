@@ -18,7 +18,7 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="min-h-screen bg-(--background) text-stone-800 font-serif">
+    <div className="min-h-screen bg-(--background) font-serif">
       <PortfolioNav scrollToSection={scrollToSection} />
       <HeroSection />
       <AboutSection />
