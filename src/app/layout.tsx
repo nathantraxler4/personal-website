@@ -41,7 +41,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${lora.variable} font-sans`}>
-      <body className="min-h-screen flex flex-col bg-[var(--color-bg-light)] text-[var(--color-text)]">
+      <body className="min-h-screen flex flex-col">
         {children}
       </body>
     </html>
