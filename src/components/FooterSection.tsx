@@ -2,21 +2,18 @@
 
 export default function FooterSection() {
   return (
-    <footer className="bg-(--background) py-12 px-6 border-t border-stone-200" id="footer">
+    <footer className="bg-(--color-header-footer) py-12 px-6 border-t border-stone-200" id="footer">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-(--color-nav-text) text-sm font-light">
+          <p className="text-(--color-header-footer-text) text-sm font-light">
             © 2025 Nathan&nbsp;Traxler. Crafted with care in San&nbsp;Francisco.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-(--color-nav-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
+            <a href="#" className="text-(--color-header-footer-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
               GITHUB
             </a>
-            <a href="#" className="text-(--color-nav-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
+            <a href="#" className="text-(--color-header-footer-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
               LINKEDIN
-            </a>
-            <a href="#" className="text-(--color-nav-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
-              TWITTER
             </a>
           </div>
         </div>
