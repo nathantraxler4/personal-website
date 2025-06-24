@@ -2,7 +2,7 @@
 
 export default function ResumeSection() {
   return (
-    <section id="resume" className="py-20 px-6">
+    <section id="resume" className="py-20 px-6 bg-(--main-background)">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl font-light text-stone-700 mb-8">Resume</h2>
         <p className="text-xl text-stone-600 mb-12 font-light leading-relaxed">

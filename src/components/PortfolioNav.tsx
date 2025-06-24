@@ -6,7 +6,7 @@ type Props = {
 
 export default function PortfolioNav({ scrollToSection }: Props) {
   return (
-    <nav className="fixed top-0 w-full z-50 transition-all duration-500 bg-(--color-bg-header)">
+    <nav className="fixed top-0 w-full z-50 transition-all duration-500 bg-(--background)">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Profile Circle */}

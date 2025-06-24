@@ -2,21 +2,21 @@
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 px-6">
+    <section id="about" className="py-20 px-6 bg-(--main-background)">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl font-light text-stone-700 mb-8">About</h2>
             <div className="space-y-6 text-lg leading-relaxed text-stone-600 font-light">
               <p>
-                I believe in the power of elegant code and thoughtful architecture.
-                My work sits at the intersection of user-centric design and robust engineering,
-                with an eye for the subtle details that make applications delightful.
+                I believe in the power of Artificial Intelligence empowering humans to create.
+                I strive to build impactful software that makes a difference in the world, focusing on
+                craftsmanship, specificity, and user delight.
               </p>
               <p>
-                When I&apos;m not coding, you&apos;ll find me cycling along San Francisco&apos;s Bay Trail
-                sampling new coffee shops, or tinkering with side projects that explore the boundaries
-                of modern web development.
+                When I&apos;m not working, you&apos;ll find me exploring a new San Francisco
+                coffee shop, walking through a park with my girlfriend and our dog, or tinkering 
+                with side projects that explore the boundaries of AI and modern web development.
               </p>
               <p>
                 My approach is rooted in collaboration and curiosity — whether I&apos;m scaling a microservice
