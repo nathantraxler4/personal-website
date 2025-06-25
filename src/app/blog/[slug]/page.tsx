@@ -28,7 +28,7 @@ export default async function BlogPostPage({
           <Image src={post!.image} alt={post!.title} fill className="object-cover" />
         </div>
 
-        <div className="prose prose-stone max-w-none" dangerouslySetInnerHTML={{ __html: post!.html }} />
+        <div className="prose prose-stone max-w-none space-y-6" dangerouslySetInnerHTML={{ __html: post!.html }} />
       </div>
     </article>
   );
