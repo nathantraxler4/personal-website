@@ -1,10 +1,12 @@
 "use client";
 
-type Props = {
-  scrollToSection: (id: string) => void;
-};
-
-export default function PortfolioNav({ scrollToSection }: Props) {
+export default function PortfolioNav() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <nav className="fixed top-0 w-full z-50 transition-all duration-500 bg-(--color-header-footer)">
       <div className="max-w-6xl mx-auto px-6 py-4">

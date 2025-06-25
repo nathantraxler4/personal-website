@@ -1,5 +1,4 @@
 
-'use client'
 
 import AboutSection from '../components/AboutSection';
 import BlogSection from '../components/BlogSection';
@@ -10,16 +9,10 @@ import PortfolioNav from '../components/PortfolioNav';
 import ResumeSection from '../components/ResumeSection';
 
 const Portfolio = () => {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
+  
   return (
     <div className="min-h-screen bg-(--color-header-footer) font-serif">
-      <PortfolioNav scrollToSection={scrollToSection} />
+      <PortfolioNav />
       <HeroSection />
       <AboutSection />
       <BlogSection />
