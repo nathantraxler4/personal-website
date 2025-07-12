@@ -54,9 +54,7 @@ export async function getPost(slug: string): Promise<Post | null> {
   try {
     const raw = await fs.readFile(path.join(postsDir, `${slug}.md`), "utf8");
     const { data, content } = matter(raw);
-    console.log(data, content)
     const processed = await remark().use(html).process(content);
-    console.log(processed)
     const htmlString = processed.toString();
     const { title, date: rawDate, image } = data as {
       title: string;
