@@ -4,7 +4,6 @@ import ContactSection from '../components/ContactSection';
 import FooterSection from '../components/FooterSection';
 import HeroSection from '../components/HeroSection';
 import PortfolioNav from '../components/PortfolioNav';
-import ResumeSection from '../components/ResumeSection';
 
 const Portfolio = () => {
   
@@ -14,7 +13,6 @@ const Portfolio = () => {
       <HeroSection />
       <AboutSection />
       <BlogSection />
-      <ResumeSection />
       <ContactSection />
       <FooterSection />
     </div>

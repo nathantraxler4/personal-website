@@ -18,7 +18,7 @@ export default function PortfolioNav() {
 
           {/* Navigation Links */}
           <div className="flex space-x-8">
-            {["ABOUT", "BLOG", "RESUME", "CONTACT"].map((item) => (
+            {["ABOUT", "BLOG", "CONTACT"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
