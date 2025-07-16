@@ -17,17 +17,17 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "Nathan Traxler's Personal Website | Software Engineer",
-  description: "Personal portfolio of Nathan Traxler, a software engineer based in San Francisco.",
-  keywords: ["software engineer", "portfolio", "blog", "San Francisco"],
+  description: "Personal website of Nathan Traxler, a software engineer based in San Francisco.",
+  keywords: ["software engineer", "AI", "blog", "San Francisco"],
   authors: [{ name: "Nathan Traxler" }],
   creator: "Nathan Traxler",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon-512x512.png",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    // url: "https://yourwebsite.com",
+    url: "https://nathantraxler.com",
     title: "Nathan Traxler's Personal Website",
     description: "Software Engineer and AI Enthusiast based in San Francisco",
     siteName: "Nathan Traxler's Personal Website",
