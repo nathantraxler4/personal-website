@@ -17,10 +17,10 @@ export default function AboutSection() {
                 My decisions and interactions are deeply guided by some core values:
               </p>
               <ul className="list-disc list-inside space-y-2 text-lg leading-relaxed text-stone-600 font-light ml-4">
-                <li><strong>Authenticity:</strong> I believe authenticity is fundamental to the human experience. Authentic people navigate life with clarity, seek truth, and inspire comfort and trust.</li>
-                <li><strong>Action:</strong> I firmly believe that growth and discovery only happen through action. Embracing new projects, experiences, and even moments of discomfort opens up limitless possibilities.</li>
-                <li><strong>Giving Your Best:</strong> Inspired by the Japanese phrase &ldquo;頑張ってください&rdquo; (please do your best), I strive to give my utmost effort in every pursuit, reinforcing the empowering mindset of personal responsibility and control.</li>
-                <li><strong>Doing What&apos;s Right:</strong> Navigating the complexities of life requires deliberate effort to seek ethical and responsible choices. I aim to make thoughtful decisions that contribute positively to the world around me.</li>
+                <li><strong>Authenticity:</strong> Authenticity is fundamental to the human experience. Authentic people navigate life with clarity, seek truth, and inspire comfort and trust.</li>
+                <li><strong>Action:</strong> Growth and discovery only happen through action. Embracing new projects, experiences, and moments of discomfort opens up limitless possibilities.</li>
+                <li><strong>Giving Your Best:</strong> Inspired by the Japanese phrase &ldquo;頑張ってください&rdquo; (please do your best), I strive to give my utmost effort in every pursuit, reinforcing the mindset of personal responsibility and control.</li>
+                <li><strong>Doing What&apos;s Right:</strong> Navigating the complexities of life requires deliberate effort to seek effective and ethical choices. I aim to make thoughtful decisions that contribute positively to the world around me.</li>
                 <li><strong>Family and Friends:</strong> The challenges of life become meaningful and manageable through strong relationships. My family and friends are central to my happiness and motivation.</li>
               </ul>
               <p>
