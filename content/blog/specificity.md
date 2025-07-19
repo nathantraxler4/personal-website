@@ -1,5 +1,5 @@
 ---
-title: The Art of Specificity
+title: Specificity
 date: 2025-06-23
 image: /images/TheArtOfSpecificity.png
 ---
