@@ -1,7 +1,7 @@
 ---
 title: Specificity
 date: 2025-06-23
-image: /images/TheArtOfSpecificity.png
+image: /images/Specificity.png
 ---
 I developed a habit that my girlfriend has grown to despise. Whenever I need to ask her to do something around our apartment—wash her dishes, put something back where it belongs, store something a particular way—I preface it with "I have a request." To her, these three words have become a signal that I think she's done something wrong.
 
