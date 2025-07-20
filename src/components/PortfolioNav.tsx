@@ -2,6 +2,10 @@
 
 export default function PortfolioNav() {
   const scrollToSection = (id: string) => {
+    if (id === 'top') {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -12,9 +16,12 @@ export default function PortfolioNav() {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Profile Circle */}
-          <div className="w-12 h-12 rounded-full bg-stone-300 text-(--color-header-footer-text) flex items-center justify-center overflow-hidden">
+          <button
+            onClick={() => scrollToSection('top')}
+            className="w-12 h-12 rounded-full bg-stone-300 text-(--color-header-footer-text) flex items-center justify-center overflow-hidden cursor-pointer"
+          >
             NT
-          </div>
+          </button>
 
           {/* Navigation Links */}
           <div className="flex space-x-8">
