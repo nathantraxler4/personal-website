@@ -1,6 +1,6 @@
 ---
 title: Nothin' better than...
-date: 2025-06-20
+date: 2025-06-16
 image: /images/Nothin_Better_Than.png
 ---
 Nothin' better than a perfectly brewed cup of coffee in the morning.
