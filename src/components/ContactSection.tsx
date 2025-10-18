@@ -20,7 +20,7 @@ export default function ContactSection() {
             <span className="text-stone-700">San Francisco, California</span>
           </div>
           
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <span className="mr-2">📄</span>
             <a 
               href="/resume.pdf" 
@@ -29,7 +29,7 @@ export default function ContactSection() {
             >
               Download Resume
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
