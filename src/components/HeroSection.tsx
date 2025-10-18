@@ -14,7 +14,7 @@ export default function HeroSection() {
           <br />
           its applications in the world of software engineering.
           <br />
-          Currently at Apple supporting Apple TV+.
+          Currently at Tenzo AI building the future of hiring.
         </p>
       </div>
     </section>

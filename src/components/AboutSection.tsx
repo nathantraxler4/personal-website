@@ -11,7 +11,7 @@ export default function AboutSection() {
             <div className="space-y-6 text-lg leading-relaxed text-stone-600 font-light">
               <p>
                 I&apos;m a software engineer and machine learning enthusiast passionate about crafting thoughtful digital experiences and solving challenging problems with clarity and precision.
-                I&apos;m currently a Technical Lead at Apple, building internal applications for Apple TV+.
+                I&apos;m currently a Software Engineer at Tenzo AI, building an AI hiring platform.
               </p>
               <p>
                 My decisions and interactions are deeply guided by some core values:
