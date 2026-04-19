@@ -16,9 +16,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Nathan Traxler's Personal Website | Software Engineer",
-  description: "Personal website of Nathan Traxler, a software engineer based in San Francisco.",
-  keywords: ["software engineer", "AI", "blog", "San Francisco"],
+  title: "Nathan Traxler's Personal Website | AI Engineer",
+  description: "Personal website of Nathan Traxler, an AI engineer based in San Francisco.",
+  keywords: ["AI engineer", "AI", "blog", "San Francisco"],
   authors: [{ name: "Nathan Traxler" }],
   creator: "Nathan Traxler",
   icons: {
