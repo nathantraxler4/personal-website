@@ -1,5 +1,5 @@
 import AboutSection from '../components/AboutSection';
-import BlogSection from '../components/BlogSection';
+// import BlogSection from '../components/BlogSection';
 import ContactSection from '../components/ContactSection';
 import FooterSection from '../components/FooterSection';
 import HeroSection from '../components/HeroSection';
@@ -9,10 +9,10 @@ const Portfolio = () => {
   
   return (
     <div className="min-h-screen bg-(--color-header-footer) font-serif">
-      <PortfolioNav />
+      {/* <PortfolioNav /> */}
       <HeroSection />
       <AboutSection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <ContactSection />
       <FooterSection />
     </div>
