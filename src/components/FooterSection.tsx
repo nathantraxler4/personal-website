@@ -9,6 +9,9 @@ export default function FooterSection() {
             © 2025 Nathan&nbsp;Traxler. Crafted with care in San&nbsp;Francisco.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
+            <a href="mailto:nathan.traxler@gmail.com" className="text-(--color-header-footer-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
+              EMAIL
+            </a>
             <a href="https://github.com/nathantraxler4" target="_blank" rel="noopener noreferrer" className="text-(--color-header-footer-text) hover:text-stone-700 text-sm tracking-wider transition-colors">
               GITHUB
             </a>
