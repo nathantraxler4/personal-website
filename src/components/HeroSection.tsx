@@ -8,11 +8,7 @@ export default function HeroSection() {
           Hi, I&apos;m Nathan Traxler.
         </h1>
         <p className="text-xl md:text-2xl text-stone-600 max-w-2xl mx-auto leading-relaxed font-light">
-          I&apos;m a software engineer based in San Francisco.
-          <br />
-          I am passionate about Artificial Intelligence and
-          <br />
-          its applications in the world of software engineering.
+          I&apos;m an AI engineer based in San Francisco.
           <br />
           Currently at Tenzo AI building the future of hiring.
         </p>

@@ -7,12 +7,8 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-16 items-center">
           <div className="md:col-span-2">
-            <h2 className="text-4xl font-light text-stone-700 mb-8">About</h2>
+            <h2 className="text-4xl font-light text-stone-700 mb-8">What I'm About</h2>
             <div className="space-y-6 text-lg leading-relaxed text-stone-600 font-light">
-              <p>
-                I&apos;m a software engineer and machine learning enthusiast passionate about crafting thoughtful digital experiences and solving challenging problems with clarity and precision.
-                I&apos;m currently a Software Engineer at Tenzo AI, building an AI hiring platform.
-              </p>
               <p>
                 My decisions and interactions are deeply guided by some core values:
               </p>
@@ -26,7 +22,7 @@ export default function AboutSection() {
                 <li><strong>Family:</strong> The challenges of life become meaningful and manageable through strong relationships. Whether blood or chosen family, the people I love are central to my happiness and motivation.</li>
               </ul>
               <p>
-                When I&apos;m not coding, you might find me exploring cocktail recipes, attempting a new hobby (like knitting), enjoying thoughtful indie films, or diving into a good book.
+                When I&apos;m not coding, you might find me crafting new cocktail recipes, exploring a new hobby (like roasting coffee), enjoying thoughtful films, or diving into a good book.
               </p>
             </div>
           </div>
