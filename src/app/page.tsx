@@ -8,7 +8,7 @@ import PortfolioNav from '../components/PortfolioNav';
 const Portfolio = () => {
   
   return (
-    <div className="min-h-screen bg-(--color-header-footer) font-serif">
+    <div className="min-h-screen bg-(--main-background) font-serif">
       {/* <PortfolioNav /> */}
       <HeroSection />
       <AboutSection />

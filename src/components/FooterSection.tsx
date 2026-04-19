@@ -2,7 +2,7 @@
 
 export default function FooterSection() {
   return (
-    <footer className="bg-(--color-header-footer) py-12 px-6 border-t border-stone-200" id="footer">
+    <footer className="bg-(--main-background) py-12 px-6 border-t border-stone-200" id="footer">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-(--color-header-footer-text) text-sm font-light">
