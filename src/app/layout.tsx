@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Lora } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 // Load Lora font with various weights and styles
@@ -43,6 +44,7 @@ export default function RootLayout({
     <html lang="en" className={`${lora.variable} font-sans`}>
       <body className="min-h-screen flex flex-col">
         {children}
+        <Analytics />
       </body>
     </html>
   );
