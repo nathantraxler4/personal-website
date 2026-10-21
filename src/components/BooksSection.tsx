@@ -15,7 +15,7 @@ export default function BooksSection() {
   return (
     <section id="books" className="py-20 px-6 bg-(--main-background)">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-light text-stone-700 mb-8">Favorite Books</h2>
+        <h2 className="text-4xl font-light text-stone-700 mb-8">Books I like</h2>
         <ul className="list-disc list-inside space-y-2 text-lg leading-relaxed text-stone-600 font-light ml-4">
           {books.map((book) => (
             <li key={book.title}>
