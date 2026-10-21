@@ -3,11 +3,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+// Blog is hidden for now; flip to true to make posts reachable again.
+const BLOG_ENABLED = false;
+
 export default async function BlogPostPage({
   params,
 }: {
   params: { slug: string };
 }) {
+  if (!BLOG_ENABLED) {
+    notFound();
+  }
+
   const post = await getPost(params.slug);
 
   if (!post) {
