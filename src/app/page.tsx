@@ -1,5 +1,6 @@
 import AboutSection from '../components/AboutSection';
 // import BlogSection from '../components/BlogSection';
+import BooksSection from '../components/BooksSection';
 import FooterSection from '../components/FooterSection';
 import HeroSection from '../components/HeroSection';
 import PortfolioNav from '../components/PortfolioNav';
@@ -11,6 +12,7 @@ const Portfolio = () => {
       {/* <PortfolioNav /> */}
       <HeroSection />
       <AboutSection />
+      <BooksSection />
       {/* <BlogSection /> */}
       <FooterSection />
     </div>
